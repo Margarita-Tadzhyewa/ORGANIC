@@ -1,0 +1,39 @@
+.fon2 {
+    background-color: #274C5B;
+}
+.main6 {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    .oneMain6 {
+        h4 {
+            font-family: Yellowtail;
+            font-weight: 300;
+            font-size: 36px;
+            color: #7EB693;
+            text-align: center;
+        }
+        h2 {
+            font-family: Roboto;
+            font-size: 50px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+        }
+    }
+    .TwoMain6 {
+        display: flex;
+        gap: 21px;
+        margin-top: 33px;
+        img {
+            border-radius: 20px;
+        }
+        p {
+            color: white;
+            text-align: center;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 25px;
+            margin-top: 25px;
+        }
+    }
+}

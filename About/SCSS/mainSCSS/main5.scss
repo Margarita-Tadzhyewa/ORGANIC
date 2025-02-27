@@ -1,0 +1,118 @@
+.main5 {
+    margin-top: 177px;
+    margin-bottom: 202px;
+
+    .oneMain5 {
+        p:first-child {
+            font-family: Yellowtail;
+            font-size: 36px;
+            font-weight: 400;
+            color: #7EB693;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Roboto;
+            font-size: 50px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        p:last-child {
+            font-family: Open Sans;
+            font-size: 18px;
+            font-weight: 300;
+            text-align: center;
+            margin-top: 16px;
+        }
+    }
+
+    .TwoMain5 {
+        display: flex;
+        gap: 27px;
+        margin-top: 42px;
+        .oneTwoMain5 {
+            div {
+                padding: 35px 30px 24px 29px;
+                background-color: #F9F8F8;
+                border-radius: 0px 0px 30px 30px;
+                margin-top: -4px;
+
+                p {
+                    font-family: Roboto;
+                    font-weight: 700;
+                    font-size: 25px;
+                }
+
+                span {
+                    font-family: Yellowtail;
+                    font-size: 22px;
+                    font-weight: 300;
+                    color: #7EB693;
+                    margin-right: 240px;
+                }
+            }
+        }
+
+        .TwoTwoMain5 {
+            div {
+                padding: 35px 30px 24px 29px;
+                background-color: #fcfafa;
+                border-radius: 0px 0px 30px 30px;
+                margin-top: -4px;
+
+                p {
+                    font-family: Roboto;
+                    font-weight: 700;
+                    font-size: 25px;
+                }
+
+                span {
+                    font-family: Yellowtail;
+                    font-size: 22px;
+                    font-weight: 300;
+                    color: #7EB693;
+                    margin-right: 190px;
+                }
+                a {
+                    margin-left: 17px;
+                    img {
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+            }
+        }
+
+        .TreeTwoMain5 {
+            div {
+                padding: 35px 30px 24px 29px;
+                background-color: #F9F8F8;
+                border-radius: 0px 0px 30px 30px;
+                margin-top: -4px;
+
+                p {
+                    font-family: Roboto;
+                    font-weight: 700;
+                    font-size: 25px;
+                }
+
+                span {
+                    font-family: Yellowtail;
+                    font-size: 22px;
+                    font-weight: 300;
+                    color: #7EB693;
+                    margin-right: 190px;
+                }
+
+                a {
+                    margin-left: 17px;
+                    img {
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

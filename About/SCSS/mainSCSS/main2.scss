@@ -1,0 +1,62 @@
+.containerMain2 {
+    width: 1447px;
+    margin: 0 auto;
+}
+main > img {
+    width: 100%;
+}
+.main3 {
+    display: flex;
+    margin-top: 68px;
+    img {
+        width: 100%;
+    }
+    .main3AboutUs {
+        margin-top: 20px;
+        margin-bottom: 140px;
+        margin-left: 40px;
+        h4 {
+            color: #7EB693;
+            font-family: Yellowtail;
+            font-weight: 300;
+            font-size: 36px;
+        }
+        h2 {
+            font-family: Roboto;
+            font-weight: 700;
+            font-size: 50px;
+            margin-bottom: 14px;
+        }
+        p {
+            margin-bottom: 48px;
+            font-family: Open Sans;
+            font-weight: 400;
+            color: #525C60;
+        }
+        .icon {
+            display: flex;
+            gap: 65px;
+            margin-bottom: 58px;
+        }
+        .iconDiv {
+            display: flex;
+            font-family: Roboto;
+            font-size: 25px;
+            font-weight: 500;
+            vertical-align: middle;
+            img {
+                width: 51px;
+                height: 48px;
+                vertical-align: middle;
+                margin-right: 15px;
+            }
+        }
+        button {
+            color: white;
+            background-color: #335B6B;
+            padding: 29px 39px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    }
+}
