@@ -350,11 +350,20 @@
     gap: 20px;
 }
 
+[alt="Broccoli"]{
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    z-index: -1;
+    left: 0;
+}
+
 .products>div{
     background: #F9F8F8;
     border-radius: 30px;
     padding: 29px 26px 17px 30px;
     position: relative;
+    z-index: -2;
 }
 
 .products>div>div:first-of-type{
