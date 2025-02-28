@@ -1,0 +1,140 @@
+@media all and (max-width: 1480px) {
+    .containerMain2 {
+        width: 1000px;
+    }
+
+    .conteinerMain {
+        width: 1000px;
+    }
+
+    .main3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 68px;
+    }
+
+    .main3 .main3AboutUs h4 {
+        color: #7EB693;
+        font-family: Yellowtail;
+        text-align: center;
+        font-weight: 300;
+        font-size: 36px;
+    }
+
+    .main3 .main3AboutUs h2 {
+        font-family: Roboto;
+        text-align: center;
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 14px;
+    }
+
+    .main3 .main3AboutUs p {
+        margin-bottom: 48px;
+        text-align: center;
+        font-family: Open Sans;
+        font-weight: 400;
+        color: #525C60;
+    }
+
+    .main3 .main3AboutUs .icon {
+        display: flex;
+        gap: 65px;
+        margin-bottom: 58px;
+        justify-content: space-evenly;
+    }
+
+    .main3 .main3AboutUs button {
+        display: block;
+        margin: 0 auto;
+        color: white;
+        background-color: #335B6B;
+        padding: 29px 39px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .main3 img {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .blockTwoMain4 {
+        display: none;
+    }
+
+    .oneMain4 {
+        display: block;
+    }
+
+    .oneMain4 .blockOneMain4 p:first-child {
+        text-align: center;
+        color: #7EB693;
+        font-family: Yellowtail;
+        font-weight: 400;
+        font-size: 36px;
+        margin-bottom: 6px;
+    }
+
+    .oneMain4 .blockOneMain4 h2 {
+        text-align: center;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+
+    .oneMain4 .blockOneMain4 h2+p {
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 65px;
+    }
+
+    .oneMain4 .naturalProduct span:first-child {
+        display: table;
+        margin: 0 auto;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 20px;
+        color: black;
+        background-color: #ECECEC;
+        padding: 29px 91px 29px 27px;
+        border-radius: 40px;
+    }
+
+    .oneMain4 .naturalProduct p {
+        text-align: center;
+        margin-top: 41px;
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 24px;
+        color: black;
+        margin-left: 0px;
+    }
+
+    .TreeTwoMain5 {
+        display: none;
+    }
+
+    .main5 .TwoMain5 {
+        display: flex;
+        gap: 27px;
+        margin-top: 42px;
+        justify-content: space-evenly;
+    }
+
+    .main6 .TwoMain6 div:nth-child(3),
+    .main6 .TwoMain6 div:nth-child(4) {
+        display: none;
+    }
+
+    .main6 .TwoMain6 {
+        display: flex;
+        gap: 21px;
+        margin-top: 33px;
+        justify-content: space-around;
+    }
+}
