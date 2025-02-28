@@ -1,0 +1,78 @@
+@media all and (max-width: 1600px){
+    .container_header{
+        max-width: 1240px;
+    }
+
+    .header {
+        padding: 50px 0;
+    }
+
+    .logo p {
+        font-size: 34px;
+    }
+
+    .nav {
+        margin-left: 4.5%;
+        font-size: 18px;
+    }
+
+    #searchform input {
+        width: 300px;
+    }
+
+    .container{
+        max-width: 1200px;
+    }
+
+    .bunner {
+        padding: 207px 0;
+    }
+
+    .bunner>div.container>p:nth-of-type(2) {
+        font-size: 60px;
+    }
+
+    .bunner_2 {
+        padding: 145px 0;
+    }
+
+    .about_us {
+        padding: 146px 0 160px 0;
+    }
+
+    .about_us>div.container {
+        padding-left: 44%;
+    }
+
+    .our_products {
+        padding: 150px 0 150px 0;
+    }
+
+    .products{
+        grid-template-rows: 450px 450px;
+    }
+
+    .price {
+        margin-top: 305px;
+    }
+
+    .customers {
+        padding: 145px 0;
+    }
+
+    .offer_organic>div.container>div:first-of-type>p {
+        font-size: 45px;
+    }
+
+    .products_4{
+        grid-template-rows: 450px;
+    }
+
+    .offer_organic {
+        padding: 120px 0;
+    }
+
+    .eco_fr {
+        max-width: 756px;
+    }
+}

@@ -24,11 +24,11 @@
 }
 
 .nav{
-    margin-left: 150px;
-    width: 564px;
+    margin-left: 12.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    column-gap: 35px;
     font-weight: 700;
     font-size: 20px;
 }
@@ -53,6 +53,8 @@
     width: 376px;
     height: 66px;
     border: none;
+    transition: 0.5s;
+
 }
 
 #searchform button{
@@ -216,7 +218,7 @@
 }
 
 .about_us>div.container{
-    padding-left: 698px;
+    padding-left: 43%;
 }
 
 .common_info>p:first-of-type{
@@ -348,6 +350,7 @@
     grid-template-rows: 483px 483px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    transition: 0.5s;
 }
 
 [alt="Broccoli"]{
@@ -364,6 +367,48 @@
     padding: 29px 26px 17px 30px;
     position: relative;
     z-index: -2;
+
+}
+
+.products>div:first-of-type{
+    background: url('../../images/Photo\ \(4\).png') no-repeat center center #F9F8F8;
+    background-size: contain;
+}
+
+.products>div:nth-of-type(2){
+    background: url('../../images/banana.png') no-repeat center center #F9F8F8;
+    background-size: contain;
+
+}
+
+.products>div:nth-of-type(3){
+    background: url('../../images/Photo\ \(5\).png') no-repeat center center #F9F8F8;
+    background-size: contain;
+}
+
+.products>div:nth-of-type(4){
+    background: url('../../images/image\ 13.png') no-repeat center center #F9F8F8;
+    background-size: contain;
+}
+
+.products>div:nth-of-type(5){
+    background: url('../../images/image\ 14.png') no-repeat center center #F9F8F8;
+    background-size: contain;
+}
+
+.products>div:nth-of-type(6){
+    background: url('../../images/Photo\ \(6\).png') no-repeat center center #F9F8F8;
+    background-size: contain;
+}
+
+.products>div:nth-of-type(7){
+    background: url('../../images/Photo\ \(7\).png') no-repeat center center #F9F8F8;
+    background-size: contain;
+}
+
+.products>div:nth-of-type(8){
+    background: url('../../images/Photo\ \(8\).png') no-repeat center center #F9F8F8;
+    background-size: contain;
 }
 
 .products>div>div:first-of-type{
@@ -619,6 +664,56 @@
     font-size: 25px;
     color: #274c5b;
     margin-bottom: 7px;
+}
+
+.products_4{
+    display: grid;
+    grid-template-rows: 483px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    transition: 0.5s;
+}
+
+.products_4>div{
+    background: #F9F8F8;
+    border-radius: 30px;
+    padding: 29px 26px 17px 30px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.products_4>div:first-of-type{
+    background: url('../../images/Image\ \(8\).png') no-repeat center center;
+    background-size: cover;
+}
+
+.products_4>div:nth-of-type(2){
+    background: url('../../images/Image\ \(9\).png') no-repeat center center;
+    background-size: cover;
+}
+
+.products_4>div:nth-of-type(3){
+    background: url('../../images/Image\ \(10\).png') no-repeat center center;
+    background-size: cover;
+}
+
+.products_4>div:nth-of-type(4){
+    background: url('../../images/Image\ \(11\).png') no-repeat center center;
+    background-size: cover;
+}
+
+.products_4>div>div:first-of-type{
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px 12px 6px 12px;
+    background: #274c5b;
+}
+
+.products_4>div>div:first-of-type>p:first-of-type{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
 }
 
 /* Gallery */
