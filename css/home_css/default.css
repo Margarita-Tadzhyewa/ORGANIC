@@ -728,6 +728,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 40px;
 }
 
 .container_3>div{
@@ -736,6 +737,7 @@
     align-items: center;
     width: 612px;
     height: 583px;
+    transition: .5s;
 }
 
 .container_3>div:first-of-type{
