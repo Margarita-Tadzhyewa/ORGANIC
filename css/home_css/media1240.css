@@ -75,4 +75,8 @@
     .eco_fr {
         max-width: 756px;
     }
+
+    .gallery {
+        padding: 150px 0;
+    }
 }
