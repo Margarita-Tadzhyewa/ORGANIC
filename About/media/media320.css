@@ -1,0 +1,143 @@
+@media all and (max-width: 780px) {
+    .containerMain2 {
+        width: 300px;
+    }
+
+    .conteinerMain {
+        width: 300px;
+    }
+
+    .main3 .main3AboutUs {
+        margin-top: 20px;
+        margin-bottom: 140px;
+        margin-left: 0;
+    }
+
+    .main3 .main3AboutUs h4 {
+        color: #7EB693;
+        font-family: Yellowtail;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .main3 .main3AboutUs h2 {
+        font-family: Roboto;
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    .main3 .main3AboutUs p br {
+        display: none;
+    }
+
+    .main3 .main3AboutUs p {
+        margin-bottom: 48px;
+        text-align: center;
+        font-family: Open Sans;
+        font-weight: 400;
+        color: #525C60;
+        font-size: 14px;
+    }
+
+    .main3 .main3AboutUs .icon {
+        display: none;
+    }
+    .main3 .main3AboutUs {
+        margin-bottom: 70px;
+    }
+    .main4 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .oneMain4 .blockOneMain4 p:first-child {
+        text-align: center;
+        color: #7EB693;
+        font-family: Yellowtail;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .oneMain4 .blockOneMain4 h2 {
+        text-align: center;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+    .oneMain4 .blockOneMain4 h2+p {
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+    .oneMain4 .blockOneMain4 h2+p br {
+        display: none;
+    }
+    .oneMain4 .naturalProduct span:first-child {
+        display: table;
+        margin: 0 auto;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        color: black;
+        background-color: #ECECEC;
+        padding: 29px 91px 29px 27px;
+        border-radius: 40px;
+    }
+    .oneMain4 .naturalProduct p {
+        text-align: center;
+        margin-top: 20px;
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        margin-left: 0px;
+    }
+    .oneMain4 .naturalProduct p br {
+        display: none;
+    }
+    .TwoMain4 div:nth-child(2) {
+        display: none;
+    }
+    .TwoMain4 span {
+        padding: 58px 27px 20px 22px;
+        background-color: #F9F8F8;
+        border-radius: 20px;
+        margin-left: 60px;
+    }
+    .main5 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .main5 .oneMain5 h2 {
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .TwoTwoMain5 {
+        display: none;
+    }
+    .main6 .oneMain6 h2 {
+        font-family: Roboto;
+        font-size: 38px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
+    .TwoMain6 div:nth-child(2) {
+        display: none;
+    }
+    .main6 .TwoMain6 img {
+        border-radius: 20px;
+        width: 100%;
+    }
+    .main6 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
