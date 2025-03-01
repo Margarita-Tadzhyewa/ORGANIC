@@ -1,0 +1,24 @@
+@media all and (max-width: 1050px) {
+    .containerMain2 {
+        width: 740px;
+    }
+
+    .conteinerMain {
+        width: 740px;
+    }
+    .TwoMain4 div:nth-child(1), .TwoMain4 div:nth-child(4) {
+        display: none;
+    }
+    .TwoMain4 span {
+        padding: 58px 27px 20px 22px;
+        background-color: #F9F8F8;
+        border-radius: 20px;
+        margin-left: 86px;
+    }
+    .oneTwoMain5 {
+        display: none;
+    }
+    .TwoMain4 div:nth-child(3){
+        margin-right: 0;
+    }
+}

@@ -115,6 +115,16 @@
         margin-left: 0px;
     }
 
+    .TwoMain4 span {
+        padding: 58px 27px 20px 22px;
+        background-color: #F9F8F8;
+        border-radius: 20px;
+        margin-left: 24px;
+    }
+    .TwoMain4 div p br {
+        display: none;
+    }
+
     .TreeTwoMain5 {
         display: none;
     }
@@ -136,5 +146,8 @@
         gap: 21px;
         margin-top: 33px;
         justify-content: space-around;
+    }
+    .TwoMain4 div:nth-child(4){
+        margin-right: 0px;
     }
 }
