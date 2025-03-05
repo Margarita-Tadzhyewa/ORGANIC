@@ -7,6 +7,10 @@
         max-width: 315px;
     }
 
+    .burger {
+        display: block;
+    }
+
     #searchform, .busket  {
         display: none;
     }
@@ -23,6 +27,7 @@
         padding: 88px 0;
     }
 
+
     .bunner>div.container>p:first-of-type {
         font-size: 27px;
         text-align: center;
@@ -31,6 +36,7 @@
     .bunner>div.container>p:nth-of-type(2) {
         font-size: 36px;
         text-align: center;
+        /* text-shadow: #efd372 1px 0 10px; */
     }
 
     .but_320{

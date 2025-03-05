@@ -10,7 +10,7 @@
     <title>Home</title>
 </head>
 <body>
-
+    <div class="overlay"></div>
     <header class="header">
         <div class="container_header">
             <a href="home.html" class="logo" title="Главная страница">
@@ -45,7 +45,65 @@
                 <button type="submit"><i class="shop_busket"></i></button>
                 <p>Cart(0)</p>
             </div>
+            <a href="#" class="burger menu" id="open_menu">
+                <svg class="burger" width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#464455" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
         </div>
+
+        <nav class="popup-menu">
+            <ul>
+                <li>
+                    <a href="home.html" class="logo pop" title="Главная страница">
+                        <img src="images/logo.svg" alt="logo">
+                        <p>Organick</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                    <span class="icon-chevron-right-solid"></span>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                    <span class="icon-chevron-right-solid"></span>
+                </li>
+                <li>
+                    <a href="#">Pages</a>
+                    <span class="icon-chevron-right-solid"></span>
+                </li>
+                <li>
+                    <a href="#">Shop</a>
+                    <span class="icon-chevron-right-solid"></span>
+                </li>
+                <li>
+                    <a href="#">Project</a>
+                    <span class="icon-chevron-right-solid"></span>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                    <span class="icon-chevron-right-solid"></span>
+                </li>
+                <li>
+                    <a href="tel:+380630130103" class="tel_popup">+380 630 130 103</a>
+                    <span class="icon-chevron-right-solid"></span>
+                </li>
+                <li>
+                    <div class="popup_sm">
+                        <img src="images/pinterest.svg" alt="Pinterest">
+                        <img src="images/fbook.svg" alt="Facebook">
+                        <img src="images/inst.svg" alt="Instagram">
+                        <img src="images/tw.svg" alt="Twitter">
+                    </div>
+                </li>
+
+                <a href="#" class="close-menu">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7138 7.28999C14.5261 7.10068 14.2705 6.99419 14.0038 6.99419C13.7372 6.99419 13.4816 7.10068 13.2938 7.28999L11.0038 9.58999L8.71385 7.28999C8.32172 6.89787 7.68597 6.89787 7.29385 7.28999C6.90172 7.68211 6.90172 8.31787 7.29385 8.70999L9.59385 11L7.29385 13.29C7.10453 13.4778 6.99805 13.7334 6.99805 14C6.99805 14.2666 7.10453 14.5222 7.29385 14.71C7.48161 14.8993 7.73721 15.0058 8.00385 15.0058C8.27048 15.0058 8.52608 14.8993 8.71385 14.71L11.0038 12.41L13.2938 14.71C13.4816 14.8993 13.7372 15.0058 14.0038 15.0058C14.2705 15.0058 14.5261 14.8993 14.7138 14.71C14.9032 14.5222 15.0096 14.2666 15.0096 14C15.0096 13.7334 14.9032 13.4778 14.7138 13.29L12.4138 11L14.7138 8.70999C14.9032 8.52222 15.0096 8.26663 15.0096 7.99999C15.0096 7.73335 14.9032 7.47775 14.7138 7.28999ZM18.074 3.92984C15.5632 1.33027 11.8452 0.287713 8.34892 1.20287C4.85262 2.11802 2.12217 4.84847 1.20702 8.34477C0.291863 11.8411 1.33442 15.5591 3.93399 18.0698C6.44473 20.6694 10.1628 21.712 13.6591 20.7968C17.1554 19.8817 19.8858 17.1512 20.801 13.6549C21.7161 10.1586 20.6736 6.44058 18.074 3.92984ZM16.6651 16.6599C13.968 19.36 9.73918 19.779 6.56464 17.6607C3.3901 15.5423 2.15392 11.4766 3.61203 7.9497C5.07015 4.42281 8.81649 2.41697 12.5601 3.15879C16.3038 3.90061 19.0021 7.1835 19.0051 10.9999C19.0123 13.1234 18.1697 15.1615 16.6651 16.6599Z" fill="#3E3E3E" />
+                      </svg>
+                    <span class="icon-times-solid"></span></a>
+            </ul>
+        </nav>
     </header>
 
    <div class="bunner">
@@ -527,7 +585,24 @@
         <div class="container">
             <p>Copyright &copy; <span><a href="#">Organick</a></span> | Designed by <span>VictorFlow</span> Templates - Powered by <span>Webflow</span></p>
         </div>
-    </div> 
+    </div>
+
+    <script>
+        document.getElementById('open_menu').addEventListener('click', function() {
+        document.querySelector('.overlay').style.display = 'block';
+        document.querySelector('.popup-menu').style.display = 'block';});
+
+        // Закрытие меню при клике вне него
+        window.addEventListener('click', function(event) {
+            if (!event.target.closest('.popup-menu') && !event.target.id === 'open_menu') {
+                document.querySelector('.overlay').style.display = 'none';
+                document.querySelector('.popup-menu').style.display = 'none';}});
+
+        // Закрытие меню при нажатии на кнопку закрытия
+            document.querySelector('.close-menu').addEventListener('click', function() {
+                document.querySelector('.overlay').style.display = 'none';
+                document.querySelector('.popup-menu').style.display = 'none';});
+    </script>
     
 </body>
 </html>
