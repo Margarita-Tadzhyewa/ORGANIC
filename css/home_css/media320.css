@@ -1,0 +1,392 @@
+@media all and (max-width: 830px){
+    .container_header{
+        max-width: 315px;
+    }
+
+    .container{
+        max-width: 315px;
+    }
+
+    #searchform, .busket  {
+        display: none;
+    }
+
+    .header {
+        padding: 25px 0;
+    }
+
+    .logo p {
+        font-size: 25px;
+    }
+
+    .bunner {
+        padding: 88px 0;
+    }
+
+    .bunner>div.container>p:first-of-type {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .bunner>div.container>p:nth-of-type(2) {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .but_320{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .bunner_2 {
+        padding: 90px 0;
+    }
+
+    .we_offer {
+        flex-direction: column;
+        row-gap: 15px;
+        column-gap: 0;
+    }
+
+    .we_offer>div:first-of-type, .we_offer>div:first-of-type, .we_offer>div:nth-of-type(2)  {
+        border-radius: 25px;
+        width: 100%;
+        height: 310px;
+    }
+
+    .we_offer>div:first-of-type>p:first-of-type, .we_offer>div:nth-of-type(2)>p:first-of-type  {
+        font-size: 29px;
+    }
+
+    .we_offer>div:first-of-type>p:nth-of-type(2), .we_offer>div:nth-of-type(2)>p:nth-of-type(2) {
+        font-size: 28px;
+        max-width: 215px;
+    }
+
+    .we_offer>div:first-of-type, .we_offer>div:nth-of-type(2) {
+        border-radius: 20px;
+        padding: 98px 0 0 23px;
+    }
+
+    .about_us {
+        background: #F9F8F8;
+        padding: 80px 0;
+    }
+
+    .about_us>div.container {
+        padding-left: 0%;
+    }
+
+    .common_info>p:first-of-type {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .common_info>p:nth-of-type(2) {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .common_info>p:nth-of-type(3) {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .organic_food>div:nth-of-type(2)>p:first-of-type, .quality>div:nth-of-type(2)>p:first-of-type {
+        font-size: 21px;
+    }
+
+    .organic_food {
+        column-gap: 14px;
+        margin-bottom: 25px;
+    }
+
+    .organic_food>div:first-of-type {
+        width: 81px;
+        height: 81px;
+        padding: 14px 0 0 12px;
+    }
+
+    .quality>div:first-of-type {
+        width: 81px;
+        height: 81px;
+        padding: 14px 0 0 12px;
+    }
+
+    #b_2 {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .our_products {
+        padding: 80px 0;
+    }
+
+    .p_categories {
+        font-size: 27px;
+    }
+
+    .p_our_products {
+        font-size: 32px;
+    }
+
+    .products {
+        grid-template-rows: 454px 454px 454px 454px;
+        grid-template-columns: 1fr;
+    }
+
+    .price {
+        margin-top: 324px;
+    }
+
+    .customers {
+        padding: 80px 0;
+    }
+
+    .customers>div.container>p:first-of-type {
+        font-size: 27px;
+    }
+
+    .customers>div.container>p:nth-of-type(2) {
+        font-size: 27px;
+        margin-bottom: 24px;
+    }
+
+    .our_customers p:nth-of-type(2) {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .our_customers p:nth-of-type(3) {
+        margin-bottom: 35px;
+    }
+
+    .border {
+        margin-bottom: 40px;
+    }
+
+    .circles {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .offer_organic {
+        padding: 80px 0;
+    }
+
+    .offer_organic>div.container>p {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .offer_organic>div.container>div:first-of-type {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+    .offer_organic > div.container > div:first-of-type > p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .products_4 {
+        grid-template-rows: 454px 454px 454px;
+        grid-template-columns: 1fr;
+    }
+
+    .eco_fr {
+        padding: 35px 20px 22px 20px;
+    }
+
+    .eco_friendly {
+        padding: 80px 0;
+        background: url('../../images/bg_eco.png') no-repeat center left #FFFFFF;
+        background-size: cover;
+    }
+
+    .eco_fr>p:first-of-type {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .eco_fr>p:nth-of-type(2) {
+        font-size: 26px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .eco_fr>div>p:nth-child(odd) {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .eco_fr>div>p:nth-child(even) {
+        font-size: 14px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+
+    .gallery {
+        padding: 85px 0;
+    }
+
+    .container_3 {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .container_3>div {
+        height: 338px;
+        width: 100%;
+    }
+
+    .news {
+        padding: 80px 0 130px 0;
+    }
+
+    .news>div.container>p:first-of-type {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .weekly_content {
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: center;
+    }
+
+    .weekly_content>p:first-of-type {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 100px;
+    }
+
+    .content>div {
+        width: 100%;
+    }
+
+    .small_block {
+        padding: 22px 14px 25px 14px;
+        width: 94%;
+        left: 9px;
+        top: 164px;
+    }
+
+    .dat {
+        width: 66px;
+        height: 66px;
+    }
+
+    .dat>p {
+        font-size: 17px;
+    }
+
+    .subscribe {
+        padding-bottom: 80px;
+    }
+
+    .subscribe>div.container>div {
+        padding: 40px 20px;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .subscribe>div.container>div>p {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #subs input {
+        width: 255px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #subs button {
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* footer */
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+    .info_item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont_us {
+        padding-right: 0;
+        border-right: 0;
+        border-bottom: 1px solid #d4d4d4;
+        margin-bottom: 20px;
+    }
+
+    .cont_us>p {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .cont_us>ul {
+        align-items: center;
+    }
+
+    .cont_us>ul>li>p:first-of-type {
+        text-align: center;
+    }
+
+    .cont_us>ul>li>p:last-of-type {
+        font-size: 16px;
+        line-height: 135%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .sc_media {
+        padding: 0px 0px;
+        border-right: 0;
+        border-bottom: 1px solid #d4d4d4;
+        padding-bottom: 26px;
+    }
+
+    .sc_media>p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .util_pages {
+        padding: 25px 0px;
+    }
+
+    .util_pages>p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .util_pages > ul > li {
+        text-align: center;
+    }
+
+    .copyr>div.container>p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+}
