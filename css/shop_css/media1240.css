@@ -1,0 +1,24 @@
+@media all and (max-width: 1600px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .container_3>div {
+        height: 438px;
+    }
+
+    .subscribe>div.container>div>p {
+        font-size: 38px;
+    }
+
+    .products{
+        grid-template-rows: 450px 450px 450px 450px;
+    }
+
+    .price {
+        margin-top: 305px;
+    }
+
+
+
+}

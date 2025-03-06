@@ -1,140 +1,31 @@
-.header{
-    background: #FFFFFF;
-    padding-top: 69px;
-    padding-bottom: 69px;
-    color: #274C5B;
-}
-
-.container_header{
-    width: 1595px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-}
-
-.logo{
-    display: flex;
-    align-items: center;
-    column-gap: 8px;
-}
-
-.logo p{
-    font-weight: 700;
-    font-size: 38px;
-}
-
-.nav{
-    margin-left: 12.5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 35px;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.nav li{
-    transition: 0.5s;
-}
-
-.nav li:hover{
-    color: #7EB693;
-}
-
-#searchform{
-    position: relative;
-    margin-left: auto;
-    margin-right: 18px;
-}
-
-#searchform input{
-    border-radius: 36px;
-    background: #fafafa;
-    width: 376px;
-    height: 66px;
-    border: none;
-    transition: 0.5s;
-
-}
-
-#searchform button{
-    right: 6px;
-    top: 5px;
-    width: 56px;
-    background: transparent;
-    height: 56px;
-    border: none;
-    position: absolute;
-    cursor: pointer;
-}
-
-#searchform button>i::before{
-    content: url('../../images/Search\ Icon.svg');
-}
-
-.busket{
-    display: flex;
-    align-items: center;
-    border: 1px solid #e0e0e0;
-    border-radius: 33px;
-    width: 159px;
-    height: 66px;
-    position: relative;
-    padding-left: 74px;
-}
-
-.busket button{
-    width: 56px;
-    left: 5px;
-    top: 4px;
-    background: transparent;
-    height: 56px;
-    border: none;
-    position: absolute;
-    cursor: pointer;
-}
-
-.busket button>i::before{
-    content: url('../../images/Cart\ Icon.svg');
-}
-
-.busket p{
-    font-weight: 600;
-    font-size: 18px;
-}
-
 /* След блок */
 .container{
     margin: 0 auto;
     max-width: 1400px;
 }
 
+.bunner{
+    padding: 184px 0;
+    background: url('../../images/Bg\ Patterns.svg') no-repeat center center, url('../../images/bg_shop.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.bunner>div.container>p{
+    font-weight: 800;
+    font-size: 70px;
+    color: #274c5b;
+    text-align: center;
+}
+
 /* Our Products */
 
 .our_products{
-    padding: 176px 0 200px 0;
-}
-
-.p_categories{
-    font-family: "Yellowtail", serif;
-    text-align: center;
-    margin-bottom: 8px;
-    font-weight: 400;
-    font-size: 36px;
-    color: #7eb693;
-}
-
-.p_our_products{
-    font-weight: 800;
-    font-size: 50px;
-    text-align: center;
-    color: #274c5b;
-    margin-bottom: 40px;
+    padding: 90px 0 140px 0;
 }
 
 .products{
     display: grid;
-    grid-template-rows: 483px 483px;
+    grid-template-rows: 483px 483px 483px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     transition: 0.5s;
