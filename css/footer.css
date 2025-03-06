@@ -1,0 +1,243 @@
+/* Footer */
+footer{
+    padding-bottom: 109px;
+}
+
+.info_item{
+    display: flex;
+    justify-content: center;
+}
+
+.cont_us{
+    padding-right: 51px;
+    border-right: 1px solid #d4d4d4;
+}
+
+.cont_us>p{
+    font-weight: 700;
+    font-size: 30px;
+    color: #274c5b;
+    margin-bottom: 32px;
+    text-align: right;
+}
+
+.cont_us>ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_us>ul>li>p:first-of-type{
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 165%;
+    text-align: right;
+    color: #525c60;
+}
+
+.cont_us>ul>li>p:last-of-type{
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    text-align: right;
+    color: #525c60;
+    margin-bottom: 36px;
+}
+
+.sc_media{
+    padding: 0 41px;
+    border-right: 1px solid #d4d4d4;
+}
+
+.logo_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.logo_bottom>p{
+    font-weight: 700;
+    font-size: 38px;
+    color: #274c5b;
+}
+
+.sc_media>p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    text-align: center;
+    color: #525c60;
+    max-width: 543px;
+    margin-top: 23px;
+    margin-bottom: 49px;
+}
+
+.sc_media>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.util_pages{
+    padding: 0 50px;
+}
+
+.util_pages>p{
+    font-weight: 700;
+    font-size: 30px;
+    color: #274c5b;
+    margin-bottom: 24px;
+}
+
+.util_pages>ul>li{
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 273%;
+    color: #525c60;
+    margin-bottom: 13px;
+}
+
+.copyr{
+    border-top: 1px solid #d4d4d4;
+    padding: 17px 0;
+}
+
+.copyr>div.container>p{
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    text-align: center;
+    color: #525c60;
+}
+
+.copyr>div.container>p>span{
+    font-weight: 700;
+}
+
+@media all and (max-width: 1260px){
+    .about_us>div.container {
+        padding-left: 28%;
+    }
+
+    .cont_us {
+        padding-right: 25px;
+    }
+
+    .sc_media {
+        padding: 0px 30px;
+    }
+
+    .util_pages {
+        padding: 0px 25px;
+    }
+
+    .cont_us>p {
+        font-size: 25px;
+    }
+
+    .logo_bottom>p {
+        font-size: 25px;
+    }
+
+    footer {
+        padding-bottom: 85px;
+    }
+
+    .util_pages>p {
+        font-size: 25px;
+    }
+
+    .util_pages > ul > li {
+        margin-bottom: 7px;
+        line-height: 220%;
+        font-size: 16px;
+    }
+
+    .cont_us>ul>li>p:last-of-type {
+        font-size: 16px;
+    }
+
+    .sc_media>p {
+        font-size: 16px;
+        max-width: 298px;
+    }
+
+    .copyr>div.container>p {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 830px){
+    /* footer */
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+    .info_item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont_us {
+        padding-right: 0;
+        border-right: 0;
+        border-bottom: 1px solid #d4d4d4;
+        margin-bottom: 20px;
+    }
+
+    .cont_us>p {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .cont_us>ul {
+        align-items: center;
+    }
+
+    .cont_us>ul>li>p:first-of-type {
+        text-align: center;
+    }
+
+    .cont_us>ul>li>p:last-of-type {
+        font-size: 16px;
+        line-height: 135%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .sc_media {
+        padding: 0px 0px;
+        border-right: 0;
+        border-bottom: 1px solid #d4d4d4;
+        padding-bottom: 26px;
+    }
+
+    .sc_media>p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .util_pages {
+        padding: 25px 0px;
+    }
+
+    .util_pages>p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .util_pages > ul > li {
+        text-align: center;
+    }
+
+    .copyr>div.container>p {
+        font-size: 14px;
+    }
+}
+
