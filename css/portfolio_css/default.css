@@ -1,0 +1,107 @@
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.bunner {
+    padding: 184px 0;
+    background: url('../../images/Pattern.svg') no-repeat center center, url('../../images/bg_portfolio.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.bunner>div.container>p {
+    font-weight: 800;
+    font-size: 70px;
+    color: #274c5b;
+    text-align: center;
+}
+
+.items{
+    padding: 150px 0 140px 0;
+}
+
+.items_pr{
+    display: grid;
+    grid-template-rows: 503px 503px;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 43px;
+    column-gap: 25px;
+}
+
+.parent{
+    height: 421px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.child {
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    width: 90%;
+    height: 375px;
+    background-color:rgba(255, 255, 255, 0.726);
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent:hover .child {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+
+.items_pr>div:nth-of-type(1)>div{
+    background: url('../../images/lemon.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.items_pr>div:nth-of-type(2)>div{
+    background: url('../../images/carrot.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.items_pr>div:nth-of-type(3)>div{
+    background: url('../../images/leaves.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.items_pr>div:nth-of-type(4)>div{
+    background: url('../../images/tomat.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.items_pr>div:nth-of-type(5)>div{
+    background: url('../../images/taspberry.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.items_pr>div:nth-of-type(6)>div{
+    background: url('../../images/orange.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.items_pr>div>p:first-of-type{
+    font-weight: 800;
+    font-size: 25px;
+    color: #274c5b;
+    margin: 21px 0 2px 0;
+}
+
+.items_pr>div>p:nth-of-type(2){
+    font-family: "Yellowtail", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #7eb693;
+}
